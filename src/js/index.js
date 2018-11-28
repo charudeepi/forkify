@@ -51,7 +51,7 @@ const controlSearch = async () => {
             clearLoader();
             searchView.renderResults(state.search.result);
             //searchView.renderResults(recipes);
-        }, 3000, state.search.result);
+        }, 6000, state.search.result);
 
     }catch (e) {
         console.log(e);
